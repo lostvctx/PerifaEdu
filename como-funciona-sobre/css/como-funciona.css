@@ -8,7 +8,9 @@
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  min-width: 320px;
 }
+
 
 /* ===== ANIMAÇÕES ===== */
 @keyframes expandir {
@@ -199,7 +201,7 @@ body {
 
 #titulo2 {
   font-size: 85px;
-  margin-bottom: 10px;
+  padding: 0 5px 5px 5px;
 }
 
 #subtitulo2 {

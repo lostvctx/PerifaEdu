@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 
 @keyframes expandir1 {
   0% { font-size: 15px; }
@@ -159,7 +162,7 @@ header {
   
   .mobile-menu {
     position: fixed;
-    top: 60px;
+    top: 53px;
     left: 0;
     width: 100%;
     background-color: #023982;
@@ -205,7 +208,7 @@ header {
   }
 
   /* Mobile: até 767px */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   /* Header - Mobile */
   header {
     height: 60px;
